@@ -20,7 +20,7 @@ namespace SwilDemo.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return View("HEllo");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
